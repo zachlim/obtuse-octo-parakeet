@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'github-pages'
 $ ruby -rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::Tumblr.run({
-      "url"            => "http://omgredot.tumblr.com",
+      "url"            => "http://omglittlereddot.tumblr.com",
       "format"         => "html", # or "md"
       "grab_images"    => false,  # whether to download images as well.
       "add_highlights" => false,  # whether to wrap code blocks (indented 4 spaces) in a Liquid "highlight" tag
